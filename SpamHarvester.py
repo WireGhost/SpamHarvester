@@ -37,7 +37,7 @@ import socket
 import whois
 
 # Connect to the IMAP server and select the "Aphish" folder.
-# You can remname "Aphish" to whatever subfolder you choose. 
+# You can rename "Aphish" to whatever subfolder name you choose. 
 # Enter your email and enter your OTP below. 
 imap = imaplib.IMAP4_SSL("imap.mail.yahoo.com")
 imap.login("YourEmail@yahoo.com","OneTimePass")
