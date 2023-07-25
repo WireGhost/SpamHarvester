@@ -22,8 +22,8 @@
                     ################################                                                                                  
 #Created By WireGhost  : 3.16.2023   
 #The following Python Script is for harvesting data from Spam email headers:
-#The relevant data collected from the headers is appended top a csv file: 
-#From the csv file, elements, whether domain or IP, etc. Can be used to report or block. 
+#The relevant data collected from the headers is appended to a csv file: 
+#From the csv file, elements, whether domain, URLs, IP, etc. Can be used to report or block. 
 #Or it could be used for more interesting automated solutions. 
 #Deployed as a scheduled task or cron job, it will automatically run and append to the csv. 
 #This script is for personal email accounts. Prefferably an old account to use as a spam honeypot. 
