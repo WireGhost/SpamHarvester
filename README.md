@@ -3,7 +3,7 @@ Basic Python script for having fun with python and spam emails.
 Title: Email Phishing Data Extractor – “Spam Harvester”
 
 Summary:
-The “SpamHarvester” is a simple Python script that helps users analyze and extract relevant information from phishing emails. It connects to an IMAP server, searches for spam emails in a specified folder ("Aphish"), and extracts headers, body text, and URLs from each email. The extracted data is then processed and saved to a CSV file for further analysis. For larger volumes of “spam processing”, it may be beneficial to append the output to SQLite DB. In this case, I had an old yahoo email account that was mostly spam and phishing, so I wanted to do something with it and have some fun learning some Python.  With the Yahoo account, it didn’t connect with the default Yahoo “Spam” folder, so I made a subfolder called “Aphish” and passed the contents of the Spam folder to the “Aphish” subfolder.  Setting a filtering rule from the “Spam” folder to pass to “Aphish” didn’t work for me, as I was unable to select the Spam folder in Yahoo’s filtering rules, however; an email client i.e., Thunderbird may accomplish this. 
+The “SpamHarvester” is a simple Python script that helps users analyze and extract relevant information from phishing emails. It connects to an IMAP server, searches for spam emails in a specified folder ("Aphish"), and extracts headers, body text, and URLs from each email. The extracted data is then processed and saved to a CSV file for further analysis. For larger volumes of “spam processing”, it may be beneficial to append the output to SQLite DB. In this case, I had an old yahoo email account that was mostly spam and phishing, so I wanted to do something with it and have fun learning some Python header parsing.  With the Yahoo account, it didn’t connect with the default Yahoo “Spam” folder, so I made a subfolder called “Aphish” and passed the contents of the Spam folder to the “Aphish” subfolder.  Setting a filtering rule from the “Spam” folder to pass to “Aphish” didn’t work for me, as I was unable to select the Spam folder in Yahoo’s filtering rules, however; an email client i.e., Thunderbird may accomplish this.   
 
 Features:
 
@@ -27,4 +27,4 @@ Getting Started:
 Note:
 While the script is designed to be beginner-friendly, users with little Python experience can still learn valuable concepts related to email manipulation, regular expressions, and CSV file handling. It provides a practical foundation for exploring and advancing more complex email analysis and cybersecurity projects.
 
-Feel free to modify and improve the script to suit your specific needs. I’m throwing out here for folks to make it better and improve upon it. 
+Feel free to modify and improve the script to suit your specific needs. I’m throwing it out here for folks to make it better and improve upon it. 
