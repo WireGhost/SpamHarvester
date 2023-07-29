@@ -3,8 +3,8 @@
 #From the csv file, elements, whether domain, URLs, IP, etc. Can be used to report or block. 
 #Or it could be used for more interesting automated solutions. 
 #Deployed as a scheduled task or cron job, it will automatically run and append to the csv. 
-#This script is for personal email accounts. Prefferably an old account to use as a spam honeypot. 
-#Created and Tested on Python 3.11.2 - Win 10 x64 
+#This script is for personal email accounts. Preferably an old account to use as a spam honeypot. 
+#Created and Tested on Python 3.11.2 - Win 10 x64
 
 import imaplib
 import email
